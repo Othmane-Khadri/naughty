@@ -69,6 +69,21 @@ node src/cli.mjs board
 
 Everything except `send` is harmless. `send` refuses to run without `--yes`.
 
+**Try it with no credentials at all.** There is a sample batch in the repo, so you can watch
+the detector work before you sign up for anything:
+
+```bash
+mkdir -p data && cp examples/comments.sample.csv data/comments.csv
+NAUGHTY_SOURCE=csv node src/cli.mjs scan
+NAUGHTY_SOURCE=csv node src/cli.mjs draft
+NAUGHTY_SOURCE=csv node src/cli.mjs qa
+NAUGHTY_SOURCE=csv node src/cli.mjs board     # then open 127.0.0.1:4321
+```
+
+Six synthetic comments: one account running a template twice, two accounts posting the same
+sentence, a real human, and somebody who just wrote "Nice one, congrats!". The last two should
+score near zero, and if they do not, the detector is broken.
+
 Fill in `config/never-touch.json` first. Clients, live prospects, partners, your own team.
 Naughty skips anyone on it. Sending this to a prospect who happened to write one lazy comment
 is the only mistake here that costs actual money, and it is one bad afternoon away at all

@@ -1,0 +1,9 @@
+author,authorId,headline,profileUrl,text,postId,postText
+Repeater Case,r1,"Fractional CTO | I architect and ship your AI product in about 90 days",https://linkedin.com/in/repeater-case,"The human last mile is the real insight here.
+AI can scale the output, but judgement still decides the result.",p1,"a post about a company removing AI from its ad product"
+Repeater Case,r1,"Fractional CTO | I architect and ship your AI product in about 90 days",https://linkedin.com/in/repeater-case,"The move from keywords to buyer context is the real insight here.
+Targeting the questions your ICP genuinely asks could be a real edge.",p2,"a post about GEO replacing keyword targeting"
+TwinA Case,t1,"Websites, apps and AI automation | MD @ ExampleAgency",https://linkedin.com/in/twina-case,"Impressive proof of concept. Turning your own playbook into a product and building $1M+ in pipeline in four months is a strong validation of the model.",p3,"i turned my own playbook into a product and built $1M+ in pipeline in four months"
+TwinB Case,t2,"Founder @ ExampleMarket | Full Stack Developer",https://linkedin.com/in/twinb-case,"Impressive execution turning your own playbook into a product and building $1M+ in pipeline is a strong proof of the model.",p3,"i turned my own playbook into a product and built $1M+ in pipeline in four months"
+Human Case,h1,"Head of Sales @ Somewhere",https://linkedin.com/in/human-case,"I built the same thing last year and it broke on day 4. i hated it and went back to a spreadsheet honestly.",p3,"i turned my own playbook into a product and built $1M+ in pipeline in four months"
+Bland Case,b1,"CTO @ Elsewhere",https://linkedin.com/in/bland-case,"Nice one, congrats!",p3,"i turned my own playbook into a product and built $1M+ in pipeline in four months"
