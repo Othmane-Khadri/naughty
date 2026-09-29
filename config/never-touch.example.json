@@ -1,0 +1,9 @@
+{
+  "_comment": "Naughty skips anyone whose name contains one of these, case-insensitive. Copy to never-touch.json and edit. The copy is gitignored so your client list never ends up in a commit.",
+  "_why": "A live prospect leaving a lazy comment should not end up in a time-wasting campaign. This list is the difference between a joke and an incident.",
+  "team": ["Your Cofounder", "Your COO"],
+  "clients": [],
+  "live_prospects": [],
+  "partners": [],
+  "friends_who_just_comment_like_that": []
+}

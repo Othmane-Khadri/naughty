@@ -1,0 +1,20 @@
+{
+  "name": "naughty",
+  "version": "0.1.0",
+  "description": "Finds the AI-generated comments under your LinkedIn posts and wastes their author's time.",
+  "type": "module",
+  "bin": {
+    "naughty": "./src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node test/detect.test.mjs && node test/qa.test.mjs && node test/llm.test.mjs",
+    "naughty": "node src/cli.mjs"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0"
+  }
+}
